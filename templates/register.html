@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Register</h2>
+<form method="POST" action="{{ url_for('register') }}">
+    <label for="voter_id">Voter ID:</label>
+    <input type="text" id="voter_id" name="voter_id" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+      
+      
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <label for="secret_question">Secret Question:</label>
+    <input type="text" id="secret_question" name="secret_question" required>
+    <label for="secret_answer">Secret Answer:</label>
+    <input type="password" id="secret_answer" name="secret_answer" required>
+
+    <button type="submit">Register</button>
+</form>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Hacker Simulation</h2>
+<form method="POST" action="{{ url_for('hacker_route') }}">
+    <label for="voter_id">Voter ID:</label>
+    <input type="text" id="voter_id" name="voter_id" required>
+    <label for="stolen_private_key">Stolen Private Key:</label>
+    <textarea id="stolen_private_key" name="stolen_private_key" required></textarea>
+    <label for="candidate">Candidate:</label>
+    <input type="text" id="candidate" name="candidate" required>
+    <button type="submit">Simulate Attack</button>
+</form>
+{% endblock %}

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #005f73;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav a {
+    color: #ffddd2;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 1em;
+}
+
+footer {
+    background: #005f73;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#messages {
+    list-style: none;
+    padding: 0;
+}
+
+#messages li {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+#messages .success {
+    background: #d4edda;
+    color: #155724;
+}
+
+#messages .error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+form label, form input, form button, form textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}

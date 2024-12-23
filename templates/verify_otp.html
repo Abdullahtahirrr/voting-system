@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+Verify Secret Question
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h2 class="mb-3">Verify Your Identity</h2>
+    <form method="POST" action="/verify_otp">
+        <label for="otp">Enter OTP:</label>
+        <input type="text" id="otp" name="otp" required>
+        <button type="submit">Validate OTP</button>
+    </form>
+</div>
+{% endblock %}

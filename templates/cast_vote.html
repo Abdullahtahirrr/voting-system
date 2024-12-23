@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Cast Your Vote</h2>
+<form method="POST" action="{{ url_for('cast_vote') }}">
+    <!-- <label for="candidate">Candidate:</label>
+    <input type="text" id="candidate" name="candidate" required> -->
+    <select id="candidate" name="candidate">
+        {% for candidate in candidates %}
+            <option value="{{ candidate }}">{{ candidate }}</option>
+        {% endfor %}
+    </select>
+    
+    <button type="submit">Vote</button>
+</form>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Election Results</h2>
+<table>
+    <tr>
+        <th>Candidate</th>
+        <th>Votes</th>
+    </tr>
+    {% for candidate, votes in results %}
+    <tr>
+        <td>{{ candidate }}</td>
+        <td>{{ votes }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
