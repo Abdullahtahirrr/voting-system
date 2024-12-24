@@ -17,12 +17,13 @@ CREATE TABLE IF NOT EXISTS voters (
 
 -- Table for storing votes
 CREATE TABLE IF NOT EXISTS votes (
-    vote_id INT AUTO_INCREMENT PRIMARY KEY,     -- Unique identifier for each vote
-    voter_id VARCHAR(50),                       -- Foreign key referencing the voter
-    candidate VARCHAR(50),                      -- Candidate for whom the vote is cast
-    vote_hash TEXT NOT NULL,                    -- Hash of the vote for integrity
-    previous_hash TEXT,                         -- Hash of the previous vote for chaining
-    FOREIGN KEY (voter_id) REFERENCES voters(voter_id) -- Establishing foreign key relationship
+    vote_id INT AUTO_INCREMENT PRIMARY KEY,
+    voter_id VARCHAR(50),
+    candidate VARCHAR(50),
+    vote_hash TEXT NOT NULL,  -- Hash of the vote for integrity
+    previous_hash TEXT,       -- Hash of the previous vote for chaining
+    signature TEXT,           -- Digital signature of the vote
+    FOREIGN KEY (voter_id) REFERENCES voters(voter_id)
 );
 
 -- Table for storing candidates

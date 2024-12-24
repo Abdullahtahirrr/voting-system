@@ -1,0 +1,481 @@
+2024-12-24 05:38:52,196 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 05:38:52,196 - [33mPress CTRL+C to quit[0m
+2024-12-24 05:38:52,199 -  * Restarting with stat
+2024-12-24 05:38:52,908 -  * Debugger is active!
+2024-12-24 05:38:52,912 -  * Debugger PIN: 816-046-379
+2024-12-24 05:39:11,600 - 127.0.0.1 - - [24/Dec/2024 05:39:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 05:39:11,620 - 127.0.0.1 - - [24/Dec/2024 05:39:11] "GET / HTTP/1.1" 200 -
+2024-12-24 05:39:11,670 - 127.0.0.1 - - [24/Dec/2024 05:39:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:13,037 - 127.0.0.1 - - [24/Dec/2024 05:39:13] "GET / HTTP/1.1" 200 -
+2024-12-24 05:39:13,050 - 127.0.0.1 - - [24/Dec/2024 05:39:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:14,274 - 127.0.0.1 - - [24/Dec/2024 05:39:14] "GET /register HTTP/1.1" 200 -
+2024-12-24 05:39:14,287 - 127.0.0.1 - - [24/Dec/2024 05:39:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:27,756 - 127.0.0.1 - - [24/Dec/2024 05:39:27] "POST /register HTTP/1.1" 200 -
+2024-12-24 05:39:27,767 - 127.0.0.1 - - [24/Dec/2024 05:39:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:33,234 - 127.0.0.1 - - [24/Dec/2024 05:39:33] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:39:33,243 - 127.0.0.1 - - [24/Dec/2024 05:39:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:42,959 - 127.0.0.1 - - [24/Dec/2024 05:39:42] "POST /login HTTP/1.1" 200 -
+2024-12-24 05:39:42,969 - 127.0.0.1 - - [24/Dec/2024 05:39:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:50,861 - 127.0.0.1 - - [24/Dec/2024 05:39:50] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 05:39:50,878 - 127.0.0.1 - - [24/Dec/2024 05:39:50] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 05:39:50,890 - 127.0.0.1 - - [24/Dec/2024 05:39:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:39:54,380 - 127.0.0.1 - - [24/Dec/2024 05:39:54] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 05:39:54,387 - 127.0.0.1 - - [24/Dec/2024 05:39:54] "GET / HTTP/1.1" 200 -
+2024-12-24 05:39:54,406 - 127.0.0.1 - - [24/Dec/2024 05:39:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:40:13,947 - 127.0.0.1 - - [24/Dec/2024 05:40:13] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 05:40:13,961 - 127.0.0.1 - - [24/Dec/2024 05:40:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:40:17,035 - Vote integrity maintained for voter_id: 1
+2024-12-24 05:40:17,040 - 127.0.0.1 - - [24/Dec/2024 05:40:17] "[32mPOST /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 05:40:17,046 - 127.0.0.1 - - [24/Dec/2024 05:40:17] "GET / HTTP/1.1" 200 -
+2024-12-24 05:40:17,063 - 127.0.0.1 - - [24/Dec/2024 05:40:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:42:57,733 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:42:57,858 -  * Restarting with stat
+2024-12-24 05:42:58,661 -  * Debugger is active!
+2024-12-24 05:42:58,664 -  * Debugger PIN: 816-046-379
+2024-12-24 05:43:39,357 - 127.0.0.1 - - [24/Dec/2024 05:43:39] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:43:39,409 - 127.0.0.1 - - [24/Dec/2024 05:43:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:43:45,898 - 127.0.0.1 - - [24/Dec/2024 05:43:45] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 05:43:45,920 - 127.0.0.1 - - [24/Dec/2024 05:43:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 05:43:45,920 - 127.0.0.1 - - [24/Dec/2024 05:43:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 05:43:45,954 - 127.0.0.1 - - [24/Dec/2024 05:43:45] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=9868ldDQtcM1ZB9aUMDI HTTP/1.1" 200 -
+2024-12-24 05:43:45,987 - 127.0.0.1 - - [24/Dec/2024 05:43:45] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 05:44:29,007 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:44:29,089 -  * Restarting with stat
+2024-12-24 05:44:29,829 -  * Debugger is active!
+2024-12-24 05:44:29,833 -  * Debugger PIN: 816-046-379
+2024-12-24 05:44:32,856 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:44:32,923 -  * Restarting with stat
+2024-12-24 05:44:33,678 -  * Debugger is active!
+2024-12-24 05:44:33,683 -  * Debugger PIN: 816-046-379
+2024-12-24 05:44:49,751 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:44:49,830 -  * Restarting with stat
+2024-12-24 05:44:50,536 -  * Debugger is active!
+2024-12-24 05:44:50,539 -  * Debugger PIN: 816-046-379
+2024-12-24 05:45:09,145 - 127.0.0.1 - - [24/Dec/2024 05:45:09] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 05:45:09,214 - 127.0.0.1 - - [24/Dec/2024 05:45:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 05:45:09,214 - 127.0.0.1 - - [24/Dec/2024 05:45:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 05:45:09,227 - 127.0.0.1 - - [24/Dec/2024 05:45:09] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=yqDkALDWhY8nyoViyWfv HTTP/1.1" 200 -
+2024-12-24 05:46:00,787 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:46:00,874 -  * Restarting with stat
+2024-12-24 05:46:01,623 -  * Debugger is active!
+2024-12-24 05:46:01,626 -  * Debugger PIN: 816-046-379
+2024-12-24 05:46:18,696 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 05:46:18,775 -  * Restarting with stat
+2024-12-24 05:46:19,532 -  * Debugger is active!
+2024-12-24 05:46:19,538 -  * Debugger PIN: 816-046-379
+2024-12-24 05:46:47,387 - 127.0.0.1 - - [24/Dec/2024 05:46:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:46:47,400 - 127.0.0.1 - - [24/Dec/2024 05:46:47] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:46:47,447 - 127.0.0.1 - - [24/Dec/2024 05:46:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:46:51,442 - 127.0.0.1 - - [24/Dec/2024 05:46:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:46:51,448 - 127.0.0.1 - - [24/Dec/2024 05:46:51] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:46:51,458 - 127.0.0.1 - - [24/Dec/2024 05:46:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:46:57,999 - 127.0.0.1 - - [24/Dec/2024 05:46:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:46:58,005 - 127.0.0.1 - - [24/Dec/2024 05:46:58] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:46:58,016 - 127.0.0.1 - - [24/Dec/2024 05:46:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:47:05,226 - 127.0.0.1 - - [24/Dec/2024 05:47:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:47:05,233 - 127.0.0.1 - - [24/Dec/2024 05:47:05] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:47:05,244 - 127.0.0.1 - - [24/Dec/2024 05:47:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:47:12,655 - 127.0.0.1 - - [24/Dec/2024 05:47:12] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:47:12,663 - 127.0.0.1 - - [24/Dec/2024 05:47:12] "GET /login HTTP/1.1" 200 -
+2024-12-24 05:47:12,677 - 127.0.0.1 - - [24/Dec/2024 05:47:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:47:15,874 - 127.0.0.1 - - [24/Dec/2024 05:47:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 05:47:15,883 - 127.0.0.1 - - [24/Dec/2024 05:47:15] "GET / HTTP/1.1" 200 -
+2024-12-24 05:47:15,900 - 127.0.0.1 - - [24/Dec/2024 05:47:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 05:50:57,485 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:50:57,576 -  * Restarting with stat
+2024-12-24 05:50:58,278 -  * Debugger is active!
+2024-12-24 05:50:58,281 -  * Debugger PIN: 816-046-379
+2024-12-24 05:51:06,322 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:51:06,400 -  * Restarting with stat
+2024-12-24 05:51:07,094 -  * Debugger is active!
+2024-12-24 05:51:07,098 -  * Debugger PIN: 816-046-379
+2024-12-24 05:53:06,511 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:53:06,685 -  * Restarting with stat
+2024-12-24 05:53:07,422 -  * Debugger is active!
+2024-12-24 05:53:07,425 -  * Debugger PIN: 816-046-379
+2024-12-24 05:53:18,473 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:53:18,539 -  * Restarting with stat
+2024-12-24 05:53:19,234 -  * Debugger is active!
+2024-12-24 05:53:19,237 -  * Debugger PIN: 816-046-379
+2024-12-24 05:53:59,396 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:53:59,476 -  * Restarting with stat
+2024-12-24 05:54:00,219 -  * Debugger is active!
+2024-12-24 05:54:00,223 -  * Debugger PIN: 816-046-379
+2024-12-24 05:54:30,346 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:54:30,439 -  * Restarting with stat
+2024-12-24 05:54:31,175 -  * Debugger is active!
+2024-12-24 05:54:31,178 -  * Debugger PIN: 816-046-379
+2024-12-24 05:54:54,271 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:54:54,331 -  * Restarting with stat
+2024-12-24 05:54:55,013 -  * Debugger is active!
+2024-12-24 05:54:55,016 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:03,060 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:03,122 -  * Restarting with stat
+2024-12-24 05:55:03,838 -  * Debugger is active!
+2024-12-24 05:55:03,841 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:05,863 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:05,931 -  * Restarting with stat
+2024-12-24 05:55:06,612 -  * Debugger is active!
+2024-12-24 05:55:06,616 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:07,632 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:07,704 -  * Restarting with stat
+2024-12-24 05:55:08,446 -  * Debugger is active!
+2024-12-24 05:55:08,450 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:11,476 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:11,564 -  * Restarting with stat
+2024-12-24 05:55:12,265 -  * Debugger is active!
+2024-12-24 05:55:12,268 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:17,300 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:17,361 -  * Restarting with stat
+2024-12-24 05:55:18,037 -  * Debugger is active!
+2024-12-24 05:55:18,041 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:19,059 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:19,133 -  * Restarting with stat
+2024-12-24 05:55:19,841 -  * Debugger is active!
+2024-12-24 05:55:19,845 -  * Debugger PIN: 816-046-379
+2024-12-24 05:55:24,880 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:55:24,965 -  * Restarting with stat
+2024-12-24 05:55:25,663 -  * Debugger is active!
+2024-12-24 05:55:25,667 -  * Debugger PIN: 816-046-379
+2024-12-24 05:56:50,963 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:56:51,030 -  * Restarting with stat
+2024-12-24 05:56:51,733 -  * Debugger is active!
+2024-12-24 05:56:51,736 -  * Debugger PIN: 816-046-379
+2024-12-24 05:57:03,793 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:57:03,854 -  * Restarting with stat
+2024-12-24 05:57:04,552 -  * Debugger is active!
+2024-12-24 05:57:04,556 -  * Debugger PIN: 816-046-379
+2024-12-24 05:57:07,580 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\attacks.py', reloading
+2024-12-24 05:57:07,648 -  * Restarting with stat
+2024-12-24 05:57:08,409 -  * Debugger is active!
+2024-12-24 05:57:08,413 -  * Debugger PIN: 816-046-379
+2024-12-24 06:49:27,163 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 06:49:27,163 - [33mPress CTRL+C to quit[0m
+2024-12-24 06:49:27,167 -  * Restarting with stat
+2024-12-24 06:49:28,235 -  * Debugger is active!
+2024-12-24 06:49:28,239 -  * Debugger PIN: 816-046-379
+2024-12-24 06:50:04,366 - 127.0.0.1 - - [24/Dec/2024 06:50:04] "GET / HTTP/1.1" 200 -
+2024-12-24 06:50:04,445 - 127.0.0.1 - - [24/Dec/2024 06:50:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:06,309 - 127.0.0.1 - - [24/Dec/2024 06:50:06] "GET /login HTTP/1.1" 200 -
+2024-12-24 06:50:06,329 - 127.0.0.1 - - [24/Dec/2024 06:50:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:08,234 - 127.0.0.1 - - [24/Dec/2024 06:50:08] "GET /register HTTP/1.1" 200 -
+2024-12-24 06:50:08,252 - 127.0.0.1 - - [24/Dec/2024 06:50:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:17,570 - 127.0.0.1 - - [24/Dec/2024 06:50:17] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-24 06:50:17,582 - 127.0.0.1 - - [24/Dec/2024 06:50:17] "GET /register HTTP/1.1" 200 -
+2024-12-24 06:50:17,603 - 127.0.0.1 - - [24/Dec/2024 06:50:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:35,860 - 127.0.0.1 - - [24/Dec/2024 06:50:35] "POST /register HTTP/1.1" 200 -
+2024-12-24 06:50:35,873 - 127.0.0.1 - - [24/Dec/2024 06:50:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:38,924 - 127.0.0.1 - - [24/Dec/2024 06:50:38] "GET /login HTTP/1.1" 200 -
+2024-12-24 06:50:38,939 - 127.0.0.1 - - [24/Dec/2024 06:50:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:42,288 - 127.0.0.1 - - [24/Dec/2024 06:50:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 06:50:42,298 - 127.0.0.1 - - [24/Dec/2024 06:50:42] "GET / HTTP/1.1" 200 -
+2024-12-24 06:50:42,322 - 127.0.0.1 - - [24/Dec/2024 06:50:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:45,335 - 127.0.0.1 - - [24/Dec/2024 06:50:45] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 06:50:45,354 - 127.0.0.1 - - [24/Dec/2024 06:50:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:49,664 - 127.0.0.1 - - [24/Dec/2024 06:50:49] "[35m[1mPOST /cast_vote HTTP/1.1[0m" 500 -
+2024-12-24 06:50:49,681 - 127.0.0.1 - - [24/Dec/2024 06:50:49] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 06:50:49,681 - 127.0.0.1 - - [24/Dec/2024 06:50:49] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 06:50:49,706 - 127.0.0.1 - - [24/Dec/2024 06:50:49] "GET /cast_vote?__debugger__=yes&cmd=resource&f=console.png&s=Cecy7WxAtvozYwqlP6uI HTTP/1.1" 200 -
+2024-12-24 06:50:49,735 - 127.0.0.1 - - [24/Dec/2024 06:50:49] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 06:52:34,130 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 06:52:34,246 -  * Restarting with stat
+2024-12-24 06:53:43,263 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 06:53:43,263 - [33mPress CTRL+C to quit[0m
+2024-12-24 06:53:43,266 -  * Restarting with stat
+2024-12-24 06:53:44,212 -  * Debugger is active!
+2024-12-24 06:53:44,216 -  * Debugger PIN: 816-046-379
+2024-12-24 06:54:17,464 - 127.0.0.1 - - [24/Dec/2024 06:54:17] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:17,533 - 127.0.0.1 - - [24/Dec/2024 06:54:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:19,212 - 127.0.0.1 - - [24/Dec/2024 06:54:19] "GET /login HTTP/1.1" 200 -
+2024-12-24 06:54:19,229 - 127.0.0.1 - - [24/Dec/2024 06:54:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:23,216 - 127.0.0.1 - - [24/Dec/2024 06:54:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 06:54:23,225 - 127.0.0.1 - - [24/Dec/2024 06:54:23] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:23,254 - 127.0.0.1 - - [24/Dec/2024 06:54:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:28,425 - 127.0.0.1 - - [24/Dec/2024 06:54:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 06:54:28,437 - 127.0.0.1 - - [24/Dec/2024 06:54:28] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:28,459 - 127.0.0.1 - - [24/Dec/2024 06:54:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:30,384 - 127.0.0.1 - - [24/Dec/2024 06:54:30] "GET /login HTTP/1.1" 200 -
+2024-12-24 06:54:30,404 - 127.0.0.1 - - [24/Dec/2024 06:54:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:34,348 - 127.0.0.1 - - [24/Dec/2024 06:54:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-24 06:54:34,359 - 127.0.0.1 - - [24/Dec/2024 06:54:34] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:34,389 - 127.0.0.1 - - [24/Dec/2024 06:54:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:37,992 - 127.0.0.1 - - [24/Dec/2024 06:54:37] "[32mGET /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 06:54:38,003 - 127.0.0.1 - - [24/Dec/2024 06:54:38] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:38,036 - 127.0.0.1 - - [24/Dec/2024 06:54:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:40,501 - 127.0.0.1 - - [24/Dec/2024 06:54:40] "GET /results HTTP/1.1" 200 -
+2024-12-24 06:54:40,517 - 127.0.0.1 - - [24/Dec/2024 06:54:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:54:42,538 - 127.0.0.1 - - [24/Dec/2024 06:54:42] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 06:54:42,549 - 127.0.0.1 - - [24/Dec/2024 06:54:42] "GET / HTTP/1.1" 200 -
+2024-12-24 06:54:42,567 - 127.0.0.1 - - [24/Dec/2024 06:54:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 06:59:05,549 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 06:59:05,726 -  * Restarting with stat
+2024-12-24 06:59:57,452 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 06:59:57,452 - [33mPress CTRL+C to quit[0m
+2024-12-24 06:59:57,456 -  * Restarting with stat
+2024-12-24 06:59:58,331 -  * Debugger is active!
+2024-12-24 06:59:58,336 -  * Debugger PIN: 816-046-379
+2024-12-24 07:00:03,186 - 127.0.0.1 - - [24/Dec/2024 07:00:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 07:00:03,203 - 127.0.0.1 - - [24/Dec/2024 07:00:03] "GET / HTTP/1.1" 200 -
+2024-12-24 07:00:03,262 - 127.0.0.1 - - [24/Dec/2024 07:00:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:00:04,196 - 127.0.0.1 - - [24/Dec/2024 07:00:04] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:00:04,213 - 127.0.0.1 - - [24/Dec/2024 07:00:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:00:07,201 - 127.0.0.1 - - [24/Dec/2024 07:00:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:00:07,220 - 127.0.0.1 - - [24/Dec/2024 07:00:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:00:07,221 - 127.0.0.1 - - [24/Dec/2024 07:00:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:00:07,263 - 127.0.0.1 - - [24/Dec/2024 07:00:07] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=HjcuMNrh9J4nwSCA4Diu HTTP/1.1" 200 -
+2024-12-24 07:01:55,855 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:01:56,012 -  * Restarting with stat
+2024-12-24 07:01:56,987 -  * Debugger is active!
+2024-12-24 07:01:56,991 -  * Debugger PIN: 816-046-379
+2024-12-24 07:01:59,019 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:01:59,171 -  * Restarting with stat
+2024-12-24 07:02:00,163 -  * Debugger is active!
+2024-12-24 07:02:00,167 -  * Debugger PIN: 816-046-379
+2024-12-24 07:02:02,199 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:02:02,331 -  * Restarting with stat
+2024-12-24 07:02:22,636 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 07:02:22,636 - [33mPress CTRL+C to quit[0m
+2024-12-24 07:02:22,641 -  * Restarting with stat
+2024-12-24 07:02:23,600 -  * Debugger is active!
+2024-12-24 07:02:23,607 -  * Debugger PIN: 816-046-379
+2024-12-24 07:02:35,574 - 127.0.0.1 - - [24/Dec/2024 07:02:35] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:02:35,668 - 127.0.0.1 - - [24/Dec/2024 07:02:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:02:35,669 - 127.0.0.1 - - [24/Dec/2024 07:02:35] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:02:35,688 - 127.0.0.1 - - [24/Dec/2024 07:02:35] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=HX9BkKVgZLacoevGdYvm HTTP/1.1" 200 -
+2024-12-24 07:02:46,724 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:02:46,864 -  * Restarting with stat
+2024-12-24 07:02:47,863 -  * Debugger is active!
+2024-12-24 07:02:47,867 -  * Debugger PIN: 816-046-379
+2024-12-24 07:02:57,733 - 127.0.0.1 - - [24/Dec/2024 07:02:57] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:02:57,828 - 127.0.0.1 - - [24/Dec/2024 07:02:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:02:57,829 - 127.0.0.1 - - [24/Dec/2024 07:02:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:02:57,851 - 127.0.0.1 - - [24/Dec/2024 07:02:57] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=3PF2fkzbfpRkEnC3P1OO HTTP/1.1" 200 -
+2024-12-24 07:02:57,878 - 127.0.0.1 - - [24/Dec/2024 07:02:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 07:03:29,064 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:03:29,207 -  * Restarting with stat
+2024-12-24 07:03:33,710 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 07:03:33,710 - [33mPress CTRL+C to quit[0m
+2024-12-24 07:03:33,715 -  * Restarting with stat
+2024-12-24 07:03:34,668 -  * Debugger is active!
+2024-12-24 07:03:34,673 -  * Debugger PIN: 816-046-379
+2024-12-24 07:03:39,794 - 127.0.0.1 - - [24/Dec/2024 07:03:39] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:03:39,879 - 127.0.0.1 - - [24/Dec/2024 07:03:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:03:39,880 - 127.0.0.1 - - [24/Dec/2024 07:03:39] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:03:39,900 - 127.0.0.1 - - [24/Dec/2024 07:03:39] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=rJ0PwW36Y8CVXW61zDPv HTTP/1.1" 200 -
+2024-12-24 07:04:08,838 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:04:08,963 -  * Restarting with stat
+2024-12-24 07:04:10,077 -  * Debugger is active!
+2024-12-24 07:04:10,081 -  * Debugger PIN: 816-046-379
+2024-12-24 07:04:18,135 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:04:18,252 -  * Restarting with stat
+2024-12-24 07:04:19,248 -  * Debugger is active!
+2024-12-24 07:04:19,253 -  * Debugger PIN: 816-046-379
+2024-12-24 07:04:21,286 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:04:21,438 -  * Restarting with stat
+2024-12-24 07:04:22,446 -  * Debugger is active!
+2024-12-24 07:04:22,451 -  * Debugger PIN: 816-046-379
+2024-12-24 07:04:26,495 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:04:26,600 -  * Restarting with stat
+2024-12-24 07:04:27,660 -  * Debugger is active!
+2024-12-24 07:04:27,665 -  * Debugger PIN: 816-046-379
+2024-12-24 07:04:50,509 - 127.0.0.1 - - [24/Dec/2024 07:04:50] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:04:50,609 - 127.0.0.1 - - [24/Dec/2024 07:04:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:04:50,615 - 127.0.0.1 - - [24/Dec/2024 07:04:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:04:50,633 - 127.0.0.1 - - [24/Dec/2024 07:04:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=kGIzNV2OyEQfJOALDRkR HTTP/1.1" 200 -
+2024-12-24 07:05:04,836 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:05:04,905 -  * Restarting with stat
+2024-12-24 07:05:05,718 -  * Debugger is active!
+2024-12-24 07:05:05,723 -  * Debugger PIN: 816-046-379
+2024-12-24 07:05:08,753 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:05:08,844 -  * Restarting with stat
+2024-12-24 07:05:09,648 -  * Debugger is active!
+2024-12-24 07:05:09,652 -  * Debugger PIN: 816-046-379
+2024-12-24 07:05:14,519 - 127.0.0.1 - - [24/Dec/2024 07:05:14] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:05:14,578 - 127.0.0.1 - - [24/Dec/2024 07:05:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:21,157 - 127.0.0.1 - - [24/Dec/2024 07:05:21] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 07:05:21,180 - 127.0.0.1 - - [24/Dec/2024 07:05:21] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 07:05:21,199 - 127.0.0.1 - - [24/Dec/2024 07:05:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:26,758 - 127.0.0.1 - - [24/Dec/2024 07:05:26] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 07:05:26,774 - 127.0.0.1 - - [24/Dec/2024 07:05:26] "GET / HTTP/1.1" 200 -
+2024-12-24 07:05:26,804 - 127.0.0.1 - - [24/Dec/2024 07:05:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:30,405 - 127.0.0.1 - - [24/Dec/2024 07:05:30] "[32mGET /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 07:05:30,418 - 127.0.0.1 - - [24/Dec/2024 07:05:30] "GET / HTTP/1.1" 200 -
+2024-12-24 07:05:30,439 - 127.0.0.1 - - [24/Dec/2024 07:05:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:33,343 - 127.0.0.1 - - [24/Dec/2024 07:05:33] "GET /results HTTP/1.1" 200 -
+2024-12-24 07:05:33,356 - 127.0.0.1 - - [24/Dec/2024 07:05:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:35,143 - 127.0.0.1 - - [24/Dec/2024 07:05:35] "GET /hacker_simulation HTTP/1.1" 200 -
+2024-12-24 07:05:35,159 - 127.0.0.1 - - [24/Dec/2024 07:05:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:36,570 - 127.0.0.1 - - [24/Dec/2024 07:05:36] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 07:05:36,589 - 127.0.0.1 - - [24/Dec/2024 07:05:36] "GET / HTTP/1.1" 200 -
+2024-12-24 07:05:36,603 - 127.0.0.1 - - [24/Dec/2024 07:05:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:05:57,872 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\app.py', reloading
+2024-12-24 07:05:57,980 -  * Restarting with stat
+2024-12-24 07:05:58,983 -  * Debugger is active!
+2024-12-24 07:05:58,988 -  * Debugger PIN: 816-046-379
+2024-12-24 07:06:03,300 - 127.0.0.1 - - [24/Dec/2024 07:06:03] "GET / HTTP/1.1" 200 -
+2024-12-24 07:06:03,362 - 127.0.0.1 - - [24/Dec/2024 07:06:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:06:12,026 - 127.0.0.1 - - [24/Dec/2024 07:06:12] "[32mGET /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 07:06:12,040 - 127.0.0.1 - - [24/Dec/2024 07:06:12] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:06:12,058 - 127.0.0.1 - - [24/Dec/2024 07:06:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:06:51,229 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:06:51,384 -  * Restarting with stat
+2024-12-24 07:06:52,536 -  * Debugger is active!
+2024-12-24 07:06:52,543 -  * Debugger PIN: 816-046-379
+2024-12-24 07:09:05,106 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:09:05,255 -  * Restarting with stat
+2024-12-24 07:09:06,356 -  * Debugger is active!
+2024-12-24 07:09:06,361 -  * Debugger PIN: 816-046-379
+2024-12-24 07:09:46,537 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:09:46,670 -  * Restarting with stat
+2024-12-24 07:09:47,694 -  * Debugger is active!
+2024-12-24 07:09:47,698 -  * Debugger PIN: 816-046-379
+2024-12-24 07:10:03,783 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:10:03,923 -  * Restarting with stat
+2024-12-24 07:10:04,901 -  * Debugger is active!
+2024-12-24 07:10:04,905 -  * Debugger PIN: 816-046-379
+2024-12-24 07:10:12,955 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:10:13,022 -  * Restarting with stat
+2024-12-24 07:10:13,831 -  * Debugger is active!
+2024-12-24 07:10:13,835 -  * Debugger PIN: 816-046-379
+2024-12-24 07:10:33,936 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:10:34,076 -  * Restarting with stat
+2024-12-24 07:10:35,193 -  * Debugger is active!
+2024-12-24 07:10:35,197 -  * Debugger PIN: 816-046-379
+2024-12-24 07:10:56,478 - 127.0.0.1 - - [24/Dec/2024 07:10:56] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:10:56,542 - 127.0.0.1 - - [24/Dec/2024 07:10:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:10:58,560 - 127.0.0.1 - - [24/Dec/2024 07:10:58] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2024-12-24 07:10:58,577 - 127.0.0.1 - - [24/Dec/2024 07:10:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:10:58,578 - 127.0.0.1 - - [24/Dec/2024 07:10:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:10:58,594 - 127.0.0.1 - - [24/Dec/2024 07:10:58] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=f8EJzJWfc5fzwqincwv8 HTTP/1.1" 200 -
+2024-12-24 07:10:58,629 - 127.0.0.1 - - [24/Dec/2024 07:10:58] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 07:11:12,371 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:11:12,485 -  * Restarting with stat
+2024-12-24 07:11:22,445 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 07:11:22,445 - [33mPress CTRL+C to quit[0m
+2024-12-24 07:11:22,448 -  * Restarting with stat
+2024-12-24 07:11:23,525 -  * Debugger is active!
+2024-12-24 07:11:23,529 -  * Debugger PIN: 816-046-379
+2024-12-24 07:11:30,132 - 127.0.0.1 - - [24/Dec/2024 07:11:30] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:11:30,189 - 127.0.0.1 - - [24/Dec/2024 07:11:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:35,728 - 127.0.0.1 - - [24/Dec/2024 07:11:35] "POST /verify_otp HTTP/1.1" 200 -
+2024-12-24 07:11:35,748 - 127.0.0.1 - - [24/Dec/2024 07:11:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:38,700 - 127.0.0.1 - - [24/Dec/2024 07:11:38] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:11:38,719 - 127.0.0.1 - - [24/Dec/2024 07:11:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:40,968 - 127.0.0.1 - - [24/Dec/2024 07:11:40] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:11:40,983 - 127.0.0.1 - - [24/Dec/2024 07:11:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:49,724 - 127.0.0.1 - - [24/Dec/2024 07:11:49] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 07:11:49,745 - 127.0.0.1 - - [24/Dec/2024 07:11:49] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 07:11:49,762 - 127.0.0.1 - - [24/Dec/2024 07:11:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:53,588 - 127.0.0.1 - - [24/Dec/2024 07:11:53] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 07:11:53,602 - 127.0.0.1 - - [24/Dec/2024 07:11:53] "GET / HTTP/1.1" 200 -
+2024-12-24 07:11:53,632 - 127.0.0.1 - - [24/Dec/2024 07:11:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:11:55,498 - 127.0.0.1 - - [24/Dec/2024 07:11:55] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 07:11:55,515 - 127.0.0.1 - - [24/Dec/2024 07:11:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:12:00,947 - 127.0.0.1 - - [24/Dec/2024 07:12:00] "[35m[1mPOST /cast_vote HTTP/1.1[0m" 500 -
+2024-12-24 07:12:00,965 - 127.0.0.1 - - [24/Dec/2024 07:12:00] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:12:00,966 - 127.0.0.1 - - [24/Dec/2024 07:12:00] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:12:00,992 - 127.0.0.1 - - [24/Dec/2024 07:12:00] "GET /cast_vote?__debugger__=yes&cmd=resource&f=console.png&s=Dd2JVZ6df7A0niYokZp7 HTTP/1.1" 200 -
+2024-12-24 07:12:01,025 - 127.0.0.1 - - [24/Dec/2024 07:12:01] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 07:13:00,953 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:13:01,139 -  * Restarting with stat
+2024-12-24 07:13:36,837 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 07:13:36,837 - [33mPress CTRL+C to quit[0m
+2024-12-24 07:13:36,840 -  * Restarting with stat
+2024-12-24 07:13:37,741 -  * Debugger is active!
+2024-12-24 07:13:37,745 -  * Debugger PIN: 816-046-379
+2024-12-24 07:13:44,569 - 127.0.0.1 - - [24/Dec/2024 07:13:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 07:13:44,593 - 127.0.0.1 - - [24/Dec/2024 07:13:44] "GET / HTTP/1.1" 200 -
+2024-12-24 07:13:44,662 - 127.0.0.1 - - [24/Dec/2024 07:13:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:13:47,592 - 127.0.0.1 - - [24/Dec/2024 07:13:47] "GET /register HTTP/1.1" 200 -
+2024-12-24 07:13:47,616 - 127.0.0.1 - - [24/Dec/2024 07:13:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:01,618 - 127.0.0.1 - - [24/Dec/2024 07:14:01] "POST /register HTTP/1.1" 200 -
+2024-12-24 07:14:01,632 - 127.0.0.1 - - [24/Dec/2024 07:14:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:03,047 - 127.0.0.1 - - [24/Dec/2024 07:14:03] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:14:03,063 - 127.0.0.1 - - [24/Dec/2024 07:14:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:06,544 - 127.0.0.1 - - [24/Dec/2024 07:14:06] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:14:06,561 - 127.0.0.1 - - [24/Dec/2024 07:14:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:13,551 - 127.0.0.1 - - [24/Dec/2024 07:14:13] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 07:14:13,580 - 127.0.0.1 - - [24/Dec/2024 07:14:13] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 07:14:13,597 - 127.0.0.1 - - [24/Dec/2024 07:14:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:19,717 - 127.0.0.1 - - [24/Dec/2024 07:14:19] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 07:14:19,730 - 127.0.0.1 - - [24/Dec/2024 07:14:19] "GET / HTTP/1.1" 200 -
+2024-12-24 07:14:19,760 - 127.0.0.1 - - [24/Dec/2024 07:14:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:21,545 - 127.0.0.1 - - [24/Dec/2024 07:14:21] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 07:14:21,565 - 127.0.0.1 - - [24/Dec/2024 07:14:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:25,779 - 127.0.0.1 - - [24/Dec/2024 07:14:25] "[35m[1mPOST /cast_vote HTTP/1.1[0m" 500 -
+2024-12-24 07:14:25,800 - 127.0.0.1 - - [24/Dec/2024 07:14:25] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-24 07:14:25,802 - 127.0.0.1 - - [24/Dec/2024 07:14:25] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-24 07:14:25,824 - 127.0.0.1 - - [24/Dec/2024 07:14:25] "GET /cast_vote?__debugger__=yes&cmd=resource&f=console.png&s=EOlbkyadMtq4wsXGpX8H HTTP/1.1" 200 -
+2024-12-24 07:14:25,854 - 127.0.0.1 - - [24/Dec/2024 07:14:25] "[36mGET /cast_vote?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-12-24 07:15:36,278 -  * Detected change in 'E:\\SEMESTER 7\\IS\\project\\fapp.py', reloading
+2024-12-24 07:15:36,429 -  * Restarting with stat
+2024-12-24 07:18:25,904 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-24 07:18:25,904 - [33mPress CTRL+C to quit[0m
+2024-12-24 07:18:25,907 -  * Restarting with stat
+2024-12-24 07:18:26,796 -  * Debugger is active!
+2024-12-24 07:18:26,800 -  * Debugger PIN: 816-046-379
+2024-12-24 07:18:35,003 - 127.0.0.1 - - [24/Dec/2024 07:18:35] "GET /register HTTP/1.1" 200 -
+2024-12-24 07:18:35,065 - 127.0.0.1 - - [24/Dec/2024 07:18:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:37,060 - 127.0.0.1 - - [24/Dec/2024 07:18:37] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:18:37,078 - 127.0.0.1 - - [24/Dec/2024 07:18:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:41,796 - 127.0.0.1 - - [24/Dec/2024 07:18:41] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:18:41,815 - 127.0.0.1 - - [24/Dec/2024 07:18:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:48,470 - 127.0.0.1 - - [24/Dec/2024 07:18:48] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 07:18:48,492 - 127.0.0.1 - - [24/Dec/2024 07:18:48] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 07:18:48,508 - 127.0.0.1 - - [24/Dec/2024 07:18:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:51,826 - 127.0.0.1 - - [24/Dec/2024 07:18:51] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 07:18:51,844 - 127.0.0.1 - - [24/Dec/2024 07:18:51] "GET / HTTP/1.1" 200 -
+2024-12-24 07:18:51,883 - 127.0.0.1 - - [24/Dec/2024 07:18:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:53,793 - 127.0.0.1 - - [24/Dec/2024 07:18:53] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 07:18:53,810 - 127.0.0.1 - - [24/Dec/2024 07:18:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:54,845 - Vote integrity maintained for voter_id: 9
+2024-12-24 07:18:54,846 - 127.0.0.1 - - [24/Dec/2024 07:18:54] "[32mPOST /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 07:18:54,856 - 127.0.0.1 - - [24/Dec/2024 07:18:54] "GET / HTTP/1.1" 200 -
+2024-12-24 07:18:54,886 - 127.0.0.1 - - [24/Dec/2024 07:18:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:18:58,749 - 127.0.0.1 - - [24/Dec/2024 07:18:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 07:18:58,777 - 127.0.0.1 - - [24/Dec/2024 07:18:58] "GET / HTTP/1.1" 200 -
+2024-12-24 07:18:58,799 - 127.0.0.1 - - [24/Dec/2024 07:18:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:00,178 - 127.0.0.1 - - [24/Dec/2024 07:19:00] "GET /register HTTP/1.1" 200 -
+2024-12-24 07:19:00,195 - 127.0.0.1 - - [24/Dec/2024 07:19:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:10,126 - 127.0.0.1 - - [24/Dec/2024 07:19:10] "POST /register HTTP/1.1" 200 -
+2024-12-24 07:19:10,140 - 127.0.0.1 - - [24/Dec/2024 07:19:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:12,124 - 127.0.0.1 - - [24/Dec/2024 07:19:12] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:19:12,147 - 127.0.0.1 - - [24/Dec/2024 07:19:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:15,668 - 127.0.0.1 - - [24/Dec/2024 07:19:15] "POST /login HTTP/1.1" 200 -
+2024-12-24 07:19:15,683 - 127.0.0.1 - - [24/Dec/2024 07:19:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:22,219 - 127.0.0.1 - - [24/Dec/2024 07:19:22] "[32mPOST /verify_otp HTTP/1.1[0m" 302 -
+2024-12-24 07:19:22,243 - 127.0.0.1 - - [24/Dec/2024 07:19:22] "GET /validate_secret HTTP/1.1" 200 -
+2024-12-24 07:19:22,264 - 127.0.0.1 - - [24/Dec/2024 07:19:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:26,227 - 127.0.0.1 - - [24/Dec/2024 07:19:26] "[32mPOST /validate_secret HTTP/1.1[0m" 302 -
+2024-12-24 07:19:26,241 - 127.0.0.1 - - [24/Dec/2024 07:19:26] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:26,273 - 127.0.0.1 - - [24/Dec/2024 07:19:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:28,248 - 127.0.0.1 - - [24/Dec/2024 07:19:28] "GET /cast_vote HTTP/1.1" 200 -
+2024-12-24 07:19:28,270 - 127.0.0.1 - - [24/Dec/2024 07:19:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:31,818 - Vote integrity maintained for voter_id: 311
+2024-12-24 07:19:31,819 - 127.0.0.1 - - [24/Dec/2024 07:19:31] "[32mPOST /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 07:19:31,830 - 127.0.0.1 - - [24/Dec/2024 07:19:31] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:31,856 - 127.0.0.1 - - [24/Dec/2024 07:19:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:35,444 - 127.0.0.1 - - [24/Dec/2024 07:19:35] "GET /results HTTP/1.1" 200 -
+2024-12-24 07:19:35,463 - 127.0.0.1 - - [24/Dec/2024 07:19:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:38,362 - 127.0.0.1 - - [24/Dec/2024 07:19:38] "[32mGET /cast_vote HTTP/1.1[0m" 302 -
+2024-12-24 07:19:38,375 - 127.0.0.1 - - [24/Dec/2024 07:19:38] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:38,395 - 127.0.0.1 - - [24/Dec/2024 07:19:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:40,582 - 127.0.0.1 - - [24/Dec/2024 07:19:40] "GET /login HTTP/1.1" 200 -
+2024-12-24 07:19:40,598 - 127.0.0.1 - - [24/Dec/2024 07:19:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:41,445 - 127.0.0.1 - - [24/Dec/2024 07:19:41] "[32mGET /register HTTP/1.1[0m" 302 -
+2024-12-24 07:19:41,458 - 127.0.0.1 - - [24/Dec/2024 07:19:41] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:41,475 - 127.0.0.1 - - [24/Dec/2024 07:19:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:43,021 - 127.0.0.1 - - [24/Dec/2024 07:19:43] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:43,040 - 127.0.0.1 - - [24/Dec/2024 07:19:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-12-24 07:19:44,186 - 127.0.0.1 - - [24/Dec/2024 07:19:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2024-12-24 07:19:44,198 - 127.0.0.1 - - [24/Dec/2024 07:19:44] "GET / HTTP/1.1" 200 -
+2024-12-24 07:19:44,217 - 127.0.0.1 - - [24/Dec/2024 07:19:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -

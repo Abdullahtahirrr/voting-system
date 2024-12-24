@@ -1,0 +1,16 @@
+[2024-12-24 06:44:58] ATTACK: Vote Tampering
+DESCRIPTION: Tampering undetected for vote ID 1. Original Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489, Tampered Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489
+RESULT: Success - Tampering undetected
+
+[2024-12-24 06:44:59] ATTACK: Replay Attack
+DESCRIPTION: Duplicate vote detected for voter ID 1. Original Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489, Tampered Root: b6e46562de1a2f798b992c8ba00ed316226c16d84c8026ab7d5896ccab5421fe
+RESULT: Failed - Replay attack detected
+
+[2024-12-24 06:44:59] ATTACK: Brute Force
+DESCRIPTION: Account locked for user ID 1 after 4 failed attempts.
+RESULT: Failed
+
+[2024-12-24 06:44:59] ATTACK: Timed OTP Brute Force
+DESCRIPTION: Correct OTP guessed: 414016 for voter ID 1 in 414017 attempts.
+RESULT: Success
+
