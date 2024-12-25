@@ -1,16 +1,16 @@
-[2024-12-24 06:44:58] ATTACK: Vote Tampering
-DESCRIPTION: Tampering undetected for vote ID 1. Original Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489, Tampered Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489
+[2024-12-24 16:12:54] ATTACK: Vote Tampering
+DESCRIPTION: Tampering undetected for vote ID 1. Original Root: 242ae6fad7f6b7f065e24ae7e4d00a1b505751c7b51dbf190e0c7149b9986f5a, Tampered Root: 242ae6fad7f6b7f065e24ae7e4d00a1b505751c7b51dbf190e0c7149b9986f5a
 RESULT: Success - Tampering undetected
 
-[2024-12-24 06:44:59] ATTACK: Replay Attack
-DESCRIPTION: Duplicate vote detected for voter ID 1. Original Root: f809f530a8f6292e139ed04f60125875b4f3ddfa51fcc77cd489295c38e79489, Tampered Root: b6e46562de1a2f798b992c8ba00ed316226c16d84c8026ab7d5896ccab5421fe
+[2024-12-24 16:12:54] ATTACK: Replay Attack
+DESCRIPTION: Duplicate vote detected for voter ID 1. Original Root: 242ae6fad7f6b7f065e24ae7e4d00a1b505751c7b51dbf190e0c7149b9986f5a, Tampered Root: 98e874cfde0af8634fed8d0fd4213c6a00dd8201a964755be9b8706adef38eed
 RESULT: Failed - Replay attack detected
 
-[2024-12-24 06:44:59] ATTACK: Brute Force
+[2024-12-24 16:12:54] ATTACK: Brute Force
 DESCRIPTION: Account locked for user ID 1 after 4 failed attempts.
 RESULT: Failed
 
-[2024-12-24 06:44:59] ATTACK: Timed OTP Brute Force
-DESCRIPTION: Correct OTP guessed: 414016 for voter ID 1 in 414017 attempts.
+[2024-12-24 16:12:54] ATTACK: Timed OTP Brute Force
+DESCRIPTION: Correct OTP guessed: 591216 for voter ID 1 in 591217 attempts.
 RESULT: Success
 

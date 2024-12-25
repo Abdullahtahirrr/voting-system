@@ -296,17 +296,17 @@ def get_candidates():
 # ==========================
 # Hacker Simulation
 # ==========================
-def hacker_simulation(voter_id, stolen_private_key_pem, candidate):
-    stolen_private_key = serialization.load_pem_private_key(
-        stolen_private_key_pem.encode(),
-        password=None
-    )
+# def hacker_simulation(voter_id, stolen_private_key_pem, candidate):
+#     stolen_private_key = serialization.load_pem_private_key(
+#         stolen_private_key_pem.encode(),
+#         password=None
+#     )
 
-    # Generate the signed message for the vote
-    message = f"{voter_id}:{candidate}".encode()
-    signature = sign_message(stolen_private_key, message)
+#     # Generate the signed message for the vote
+#     message = f"{voter_id}:{candidate}".encode()
+#     signature = sign_message(stolen_private_key, message)
 
-    return message, signature
+#     return message, signature
 
 # ==========================
 # Flask Routes
@@ -359,7 +359,7 @@ def register():
     return render_template("register.html")
 
 
-from datetime import datetime, timedelta
+# from datetime import datetime, timedelta
 
 def verify_password(plain_password, hashed_password):
     # Compare the plain password with the hashed password
@@ -367,6 +367,9 @@ def verify_password(plain_password, hashed_password):
 
 @app.route("/login", methods=["GET", "POST"])
 def login():
+    if "voter_id" in session:
+        flash("You are already logged in!", "info")
+        return redirect(url_for("home"))
     if request.method == "POST":
         voter_id = request.form["voter_id"]
         password = request.form["password"]
@@ -508,29 +511,6 @@ def validate_secret():
         flash("No secret question found for this voter ID.", "error")
         return redirect(url_for("login"))
 
-# @app.route("/request_otp", methods=["POST"])
-# def request_otp_route():
-#     voter_id = session.get("voter_id")
-#     if not voter_id:
-#         flash("Please log in first.", "error")
-#         return redirect(url_for("login"))
-    
-#     conn = mysql.connector.connect(**DB_CONFIG)
-#     cursor = conn.cursor(dictionary=True)
-#     cursor.execute("SELECT email FROM voters WHERE voter_id = %s", (voter_id,))
-#     voter = cursor.fetchone()
-#     conn.close()
-
-#     if not voter:
-#         flash("Invalid voter ID.", "error")
-#         return redirect(url_for("login"))
-
-#     email = voter["email"]
-#     otp = generate_otp()
-#     OTP_STORAGE[voter_id] = (otp, time.time())
-#     send_otp(email, otp)
-#     flash("OTP has been sent to your email.", "success")
-#     return redirect(url_for("validate_otp"))
 
 def hash_vote(voter_id, candidate, previous_hash):
     content = f"{voter_id}:{candidate}:{previous_hash}".encode()
